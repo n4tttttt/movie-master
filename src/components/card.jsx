@@ -2,7 +2,7 @@ import '@ant-design/v5-patch-for-react-19';
 import React from 'react';
 import { Card, Col, Popconfirm, Typography} from 'antd';
 import { EditOutlined, DeleteOutlined, EyeOutlined} from '@ant-design/icons';
-import Placeholder from '../images/placeholder.png'
+import Placeholder from '../images/Placeholder.png'
 const { Paragraph } = Typography;
 
 export default function Cards({movie, openModalfunction, openModal2function, deleteFunction}) {
